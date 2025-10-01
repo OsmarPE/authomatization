@@ -1,7 +1,13 @@
 :root{
-    --color-primary: #BF4360;
-    --color-foreground: rgba(0, 0, 0, 0.6);
+    --color-red-400:#BF4360;
+    --color-red-800:#45121B;
     --color-white: #FFFFFF;
+    
+    --color-title: var(--color-red-800);
+    --color-foreground: rgba(0, 0, 0, 0.6);
+    
+    
+    --color-primary: var(--color-red-400);
     --font-primary: 'Poppins', sans-serif;
     --font-secondary: 'Outfit', sans-serif;
 }
